@@ -2,7 +2,9 @@ pipeline:
   docker:
     image: plugins/docker
     dockerfile: Dockerfile
+    docker_username: terryliao0629
+    docker_password: terry0629
     repo: terryliao0629/drone
     registry: https://hub.docker.com/
-    secrets: [ docker_username, docker_password ]
+#    secrets: [ docker_username, docker_password ]
     
