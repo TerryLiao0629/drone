@@ -1,12 +1,6 @@
 pipeline:
-  build:
-    image: plugins/ecr
-    region: ap-northeast-1
-    tag: ${DRONE_COMMIT}
-    secrets: [ ecr_access_key, ecr_secret_key ]
-    repo: nice_drone
-    dockerfile: Dockerfile
-    when:
-      branch: develop
-      event: push
-
+  docker:
+    image: plugins/docker
+    repo: terryliao0629/drone
+    registry: docker.io
+    secrets: [ docker_username, docker_password ]
