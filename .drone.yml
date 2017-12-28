@@ -2,5 +2,5 @@ pipeline:
   docker:
     image: plugins/docker
     repo: terryliao0629/drone
-    registry: docker.io
+#    registry: docker.io
     secrets: [ docker_username, docker_password ]
