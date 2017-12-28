@@ -2,5 +2,5 @@ pipeline:
   docker:
     image: plugins/docker
     dockerfile: Dockerfile
-    secrets: [ docker_username, docker_password ]
     repo: terryliao0629/drone
+    secrets: [ docker_username, docker_password ]
