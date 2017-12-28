@@ -1,5 +1,4 @@
 pipeline:
   docker:
     image: plugins/docker
-    repo: foo/bar
     dockerfile: Dockerfile
