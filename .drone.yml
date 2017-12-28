@@ -4,7 +4,7 @@ pipeline:
     dockerfile: Dockerfile
     docker_username: terryliao0629
     docker_password: terry0629
-    repo: terryliao0629/drone
-    registry: https://hub.docker.com/
+    repo: drone
+    registry: terryliao0629
 #    secrets: [ docker_username, docker_password ]
     
