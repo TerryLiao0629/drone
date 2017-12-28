@@ -1,5 +1,6 @@
 pipeline:
   build:
+    image: plugins/ecr
     region: ap-northeast-1
     tag: ${DRONE_COMMIT}
     repo: nice_drone
