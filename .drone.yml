@@ -4,4 +4,4 @@ pipeline:
     dockerfile: Dockerfile
     repo: drone
     secrets: [ docker_username, docker_password ]
-    registry: https://hub.docker.com/r/terryliao0629/
+    registry: https://hub.docker.com/terryliao0629/
