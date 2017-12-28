@@ -1,0 +1,90 @@
+{
+    "dev": {
+        "dbConfig": {
+            "host": "mysql-dev.nice-cam.com",
+            "port": 3306,
+            "dbName": "nice_dev",
+            "user": "nicecam20",
+            "password": "nicecamera20",
+            "dialect": "mysql"
+        },
+        "wowza": {
+            "wowzaAddress": "wowza.nice-cam.com",
+            "demoDevice": {
+                "appName": "live",
+                "deviceName": "admin",
+                "devicePwd": "admin1234",
+                "deviceIP": "210.200.12.22",
+                "devicePort": "554",
+                "videoType1": "play1.sdp",
+                "videoType2": "play2.sdp"
+            }
+        }
+    },
+    "test": {
+        "dbConfig": {
+            "host": "mysql-dev.nice-cam.com",
+            "port": 3306,
+            "dbName": "nice_dev",
+            "user": "nicecam20",
+            "password": "nicecamera20",
+            "dialect": "mysql"
+        },
+        "wowza": {
+            "wowzaAddress": "wowza.nice-cam.com",
+            "demoDevice": {
+                "appName": "live",
+                "deviceName": "admin",
+                "devicePwd": "admin1234",
+                "deviceIP": "210.200.12.22",
+                "devicePort": "554",
+                "videoType1": "play1.sdp",
+                "videoType2": "play2.sdp"
+            }
+        }
+    },
+    "stage": {
+        "dbConfig": {
+            "host": "mysql-dev.nice-cam.com",
+            "port": 3306,
+            "dbName": "nice",
+            "user": "nicecam20",
+            "password": "nicecamera20",
+            "dialect": "mysql"
+        },
+        "wowza": {
+            "wowzaAddress": "wowza.nice-cam.com",
+            "demoDevice": {
+                "appName": "live",
+                "deviceName": "admin",
+                "devicePwd": "admin1234",
+                "deviceIP": "210.200.12.22",
+                "devicePort": "554",
+                "videoType1": "play1.sdp",
+                "videoType2": "play2.sdp"
+            }
+        }
+    },
+    "local": {
+        "dbConfig": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "dbName": "nice",
+            "user": "root",
+            "password": "1234",
+            "dialect": "mysql"
+        },
+        "wowza": {
+            "wowzaAddress": "wowza.nice-cam.com",
+            "demoDevice": {
+                "appName": "live",
+                "deviceName": "admin",
+                "devicePwd": "admin1234",
+                "deviceIP": "210.200.12.22",
+                "devicePort": "554",
+                "videoType1": "play1.sdp",
+                "videoType2": "play2.sdp"
+            }
+        }
+    }
+}
